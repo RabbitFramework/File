@@ -1,17 +1,13 @@
 {
-    "name": "xirion/filesystem",
-    "description": "File system component of xirion framework",
+    "name": "rabbit/file",
+    "description": "File system component of rabbit framework",
     "type": "component",
     "authors": [
         {
             "name": "Kaktus",
-            "email": "kaktus@kironframework.com"
+            "email": "kaktus@rabbitphp.com"
         }
     ],
-    "require": {
-        "xirion/bags": "*",
-        "xirion/dependency-injector": "^1.1"
-    },
     "autoload": {
         "psr-4": {
             "Rabbit\\File\\": "src",
