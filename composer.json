@@ -1,0 +1,22 @@
+{
+    "name": "xirion/filesystem",
+    "description": "File system component of xirion framework",
+    "type": "component",
+    "authors": [
+        {
+            "name": "Kaktus",
+            "email": "kaktus@kironframework.com"
+        }
+    ],
+    "require": {
+        "xirion/bags": "*",
+        "xirion/dependency-injector": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rabbit\\File\\": "src",
+            "Rabbit\\File\\Drivers\\": "src/Drivers"
+        }
+    },
+    "license": "MIT"
+}
