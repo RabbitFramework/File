@@ -1,5 +1,5 @@
 {
-    "name": "rabbit/file",
+    "name": "rabbitphp/file",
     "description": "File system component of rabbit framework",
     "type": "component",
     "authors": [
